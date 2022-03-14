@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  margin: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Box {
+  height: 5rem;
+  width: 5rem;
+  margin: 0.5rem;
+}
+
+.box-text {
+  font-size: 1.8rem;
+}
+
+.box-buttons {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.box-A {
+  color:yellow;
+  background-color: red;
+}
+
+.box-B {
+  color:yellow;
+  background-color: green;
+}
+
+.box-C {
+  color:yellow;
+  background-color: blue;
+}
+
+.box-D {
+  color:purple;
+  background-color:yellow;
+}
+
+.less-than-button, .greater-than-button {
+  color:white;
+}
+
+.less-than-button.first-box {
+  display: none;
+}
+
+.greater-than-button.last-box {
+  display: none;
+}
